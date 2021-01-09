@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="screen">
+    <div class="left-side">
+      <img src="images/rap-pc.png" alt="Ilustração"/>
+    </div>
+    <div class="right-side">
+      <h1>Crie sua conta:</h1>
+      <form method="POST" class="validator">
+        <label>
+          Nome:<br/>
+          <input type="text" name="name" data-rules="required|min=2" />
+        </label>
+        <label>
+          E-mail:<br/>
+          <input type="text" name="email" data-rules="required"/>
+        </label>
+        <label>
+          Senha:<br/>
+          <input type="password" name="password" data-rules="require|min=6"/>
+        </label>
+        <label>
+          <input type="submit" value="Cadastrar" />
+        </label>
+        <div>
+          <span>Já é cadastrado?</span>
+          <a href="">Faça login</a>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
