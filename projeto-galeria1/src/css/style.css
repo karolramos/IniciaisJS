@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+body {font-family: 'Playfair Display', serif !important;
+background-color: #f5e6e8 !important; color: #192a51 !important;}
+
+footer {
+  background-color: #967aa1;
+  padding: 20px;
+  font-size: .9rem;
+  color: #f5e6e8;
+}
+button.navbar-toggler{border-radius: 15px !important; border: 1px solid #d5c6e0 !important;}
+button.btn{background-color: #d5c6e0 !important; border: 2px solid #f5e6e8;}
+button.btn:hover{background-color: #967aa1 !important; border: 2px solid #f5e6e8; color: #f5e6e8 !important;}
+
+.links li a{color: #aaa1c8 !important;}
+.navbar{background-color: #967aa1 !important;}
+.collapse{color: #192a51 !important;}
+.jumbotron {background-color: inherit !important;}
+
+.md {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .7);
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0;
+}
+.md-ct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#md_img {width: 65vw;}
+.card_img {overflow: hidden;}
+.small_img {
+  cursor: pointer;
+  height: 100%;
+  transition: all linear 0.2s;
+}
+.small_img:hover {filter:drop-shadow(8px 8px 5px #967aa1);}
+
+#bt_close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.modal_active {
+  visibility: visible;
+  opacity: 1;
+}
