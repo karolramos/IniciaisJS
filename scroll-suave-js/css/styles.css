@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;1,100&display=swap');
+
+body {
+	margin: 0px;
+	padding: 40px 0 400px 0;
+	background: #222;
+}
+
+h1,
+h2,
+a {
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 100px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+p {
+	font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #b0b2b3;
+}
+
+section {
+	max-width: 600px;
+	margin: 80px auto;
+	padding: 0 20px;
+}
+
+h2::before {
+	content: '';
+	display: inline-block;
+	height: 18px;
+	width: 3px;
+	border-radius: 5px;
+	margin-right: 10px;
+	background-image: linear-gradient(#4facfe, #00f2fe);
+}
+
+section>div {
+	margin: 0 20px;
+}
+
+section>a {
+	display: block;
+	max-width: 120px;
+	background-image: linear-gradient(#4facfe, #00f2fe);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	padding: 8px 20px 10px 20px;
+	padding: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+section>a:hover {
+	background: #65b2f7;
+	color: white;
+}
+
+nav {
+	width: 100%;
+	background: #010101;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+nav ul {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+}
+
+nav a {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.4em;
+}
+
+nav a:hover {
+	color: #65b2f7;
+}
