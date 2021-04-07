@@ -13,5 +13,7 @@ Praticando Html/CSS/JS
   <li><a href="https://karolramos.github.io/IniciaisJS/slide-stories">Slide-Stories</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/
 memory-card-game-css-js">Memory Card Inicial</a></li>
+  <li><a href="https://karolramos.github.io/IniciaisJS/
+custom_cursor">Custom Cursor</a></li>
 
 </ul>
