@@ -1,0 +1,80 @@
+* {
+  margin: 0 auto;
+  text-align: center;
+}
+h3 {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.container{
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(0, #120c56, #000000);
+}
+
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+/*class shooter*/
+.shooter {
+  background-image: url("./imgs/space-invaders.png");
+  background-size: 100% 100%;
+}
+
+/*class invader*/
+.invader {
+  background-image: url("./imgs/alien.png");
+  background-size: 100% 100%;
+}
+.boom {
+  background-image: url("./imgs/explosion.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+.laser {
+  /* background-color: rgb(47, 227, 255); */
+  background-image: url("./imgs/laser.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+button {
+  /* display: none; */
+  cursor: pointer;
+  color: #4e4d4a;
+  width: 100%;
+  font-size: 1rem;
+  padding: 8px;
+  font-weight: 500;
+}
+
+.msgDisplay{
+  color: #4e4d4a;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.wrp-restart{
+  display: none;
+  position:absolute;
+  top: 50%;
+  left: 110px;
+  transform: translateY(-50%);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  background-color: aliceblue;
+  padding: 20px 40px;
+  border-radius: 4px;
+}
