@@ -17,5 +17,6 @@ memory-card-game-css-js">Memory Card Inicial</a></li>
 custom_cursor">Custom Cursor</a></li>
 <li><a href="https://karolramos.github.io/IniciaisJS/
 space-invaders-basic-js">Space Invaders basic</a></li>
-
+<li><a href="https://karolramos.github.io/IniciaisJS/
+get_fact_numbers">Fact Numbers</a></li>
 </ul>
