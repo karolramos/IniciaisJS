@@ -3,7 +3,7 @@
 Praticando HTML/CSS/JS/BOOTSTRAP/JQUERY
 
 <ul>
-  <li><a href="https://karolramos.github.io/IniciaisJS/ex-port/">Portfólio</a></li>
+  <li><a href="https://karolramos.github.io/IniciaisJS/ex-port/">Portfólio -  editando</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/glass-site">Site glass</a></li>
   
   <li><a href="https://karolramos.github.io/IniciaisJS/scroll-suave-js/">Scroll-suave-js</a></li>
