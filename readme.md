@@ -3,6 +3,8 @@
 Praticando Html/CSS/JS
 
 <ul>
+  <li><a href="https://karolramos.github.io/IniciaisJS/glass-site">Site glass</a></li>
+  <li><a href="https://karolramos.github.io/IniciaisJS/ex-port">Ex port - site</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/Urna/">Urna</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/slider/">Slider</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/countdown-timer/">Countdown-timer</a></li>
@@ -19,7 +21,4 @@ custom_cursor">Custom Cursor</a></li>
 space-invaders-basic-js">Space Invaders basic</a></li>
 <li><a href="https://karolramos.github.io/IniciaisJS/
 get_fact_numbers">Fact Numbers</a></li>
-
-<li><a href="https://karolramos.github.io/IniciaisJS/glass-site">Site glass</a></li>
-<li><a href="https://karolramos.github.io/IniciaisJS/ex-port">Ex port - site</a></li>
 </ul>
