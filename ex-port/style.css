@@ -64,17 +64,17 @@ section#about::before{
 	margin: 30px;
 	font-size: 1.1rem;
 }
-section.socials{
+.socials{
 	width: 100%;
 	background-color: #92A5FF;
 	display: flex;
 	justify-content: space-evenly;
 	font-size: 2rem;
-	color: #fff;
 }
-section.socials i{
+.socials i{
 	/* margin: 10px; */
 	cursor: pointer;
+	color: #fff;
 }
 
 .hero {
@@ -274,3 +274,47 @@ a{
 	
 	
 } */
+
+.projects{
+	display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.project-item{
+	display: grid;
+	align-content: flex-start;
+	justify-items: center;
+	text-align: center;
+}
+.project-item img{
+	max-width: 100%;
+}
+
+.project-info{
+	margin-top: 10px;
+	width: 100%;
+}
+/* .project-info h3{
+	margin-top: 10px;
+} */
+.project-info .btn-proj {
+	cursor: pointer;
+  background: #92a5ff;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+  }
+
+	.wrp-contato{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 80px;
+	}
