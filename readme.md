@@ -21,5 +21,5 @@ space-invaders-basic-js">Space Invaders basic</a></li>
 get_fact_numbers">Fact Numbers</a></li>
 
 <li><a href="https://karolramos.github.io/IniciaisJS/glass-site">Site glass</a></li>
-<li><a href="https://karolramos.github.io/IniciaisJS/exp-port">Ex port - site</a></li>
+<li><a href="https://karolramos.github.io/IniciaisJS/ex-port">Ex port - site</a></li>
 </ul>
