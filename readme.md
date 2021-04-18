@@ -10,7 +10,7 @@ Praticando HTML/CSS/JS/BOOTSTRAP/JQUERY
   <li><a href="https://karolramos.github.io/IniciaisJS/projeto-galeria1/">Galeria1</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/Urna/">Urna</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/slider/">Slider</a></li>
-  <li><a href="https://karolramos.github.io/IniciaisJS/countdown-timer/">Countdown-timer</a></li>
+  <li><a href="https://karolramos.github.io/IniciaisJS/countdown-timer/index.html">Countdown-timer</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/form-v/">Form-v</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/typewriter-js/">Typewriter-js</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/slide-stories">Slide-Stories</a></li>
