@@ -18,7 +18,7 @@ a{
 
 .main{
   height: 100vh;
-  background-image: url('/imgs/poster-mockup-2853842_1920.jpg');
+  background-image: url('../imgs/poster-mockup-2853842_1920.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -131,22 +131,22 @@ nav{
   background-image: url('../imgs/emiliano-vittoriosi-oplnTh1sIws-unsplash.jpg');
 }
 .user-img1{
-  background-image: url('/imgs/anny.jpg');
+  background-image: url('../imgs/anny.jpg');
 }
 .user-img2{
-  background-image: url('/imgs/anny.jpg');
+  background-image: url('../imgs/anny.jpg');
 }
 .user-img3{
-  background-image: url('/imgs/anny.jpg');
+  background-image: url('../imgs/anny.jpg');
 }
 .user-img4{
-  background-image: url('/imgs/anny.jpg');
+  background-image: url('../imgs/anny.jpg');
 }
 .user-img5{
-  background-image: url('/imgs/anny.jpg');
+  background-image: url('../imgs/anny.jpg');
 }
 .user-img6{
-  background-image: url('/imgs/anny.jpg');
+  background-image: url('../imgs/anny.jpg');
 }
 
 .services-head, .team-head{
