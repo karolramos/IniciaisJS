@@ -3,7 +3,7 @@
 Praticando HTML/CSS/JS/BOOTSTRAP/JQUERY
 
 <ul>
-  <li><a href="https://github.com/karolramos/IniciaisJS/portfolio_inicial">Portólio - construindo</a></li>
+  <li><a href="https://github.com/karolramos/IniciaisJS/portfolio_inicial/index.html">Portólio - construindo</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/site-black-white/index.html">Site black/white</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/glass-site">Site glass - construindo</a></li>
   <li><a href="https://karolramos.github.io/IniciaisJS/scroll-suave-js/">Scroll-suave-js</a></li>
@@ -23,3 +23,4 @@ space-invaders-basic-js">Space Invaders basic</a></li>
 <li><a href="https://karolramos.github.io/IniciaisJS/
 get_fact_numbers">Fact Numbers</a></li>
 </ul>
+
