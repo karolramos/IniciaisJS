@@ -1,9 +1,7 @@
 const sectionProjects = document.querySelector(".projects");
 const wrpProjects = document.querySelector(".wrp-projects");
 
-/* keep track of user's mouse down and up */
 let isPressedDown = false;
-/* x horizontal space of cursor from inner sectionProjects */
 let cursorXSpace;
 
 sectionProjects.addEventListener("mousedown", (e) => {
