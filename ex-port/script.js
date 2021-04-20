@@ -22,16 +22,16 @@ sectionProjects.addEventListener("mousemove", (e) => {
   if (!isPressedDown) return;
   e.preventDefault();
   wrpProjects.style.left = `${e.offsetX - cursorXSpace}px`;
-  boundCards();
+  boundProjects();
 });
 
-function boundCards() {
-  const container_rect = sectionProjects.getBoundingClientRect();
-  const cards_rect = wrpProjects.getBoundingClientRect();
+function boundProjects() {
+  const sectionProjects_rect = sectionProjects.getBoundingClientRect();
+  const wrpProjects_rect = wrpProjects.getBoundingClientRect();
 
   if (parseInt(wrpProjects.style.left) > 0) {
     wrpProjects.style.left = 0;
-  } else if (cards_rect.right < container_rect.right) {
-    wrpProjects.style.left = `-${cards_rect.width - container_rect.width}px`;
+  } else if (wrpProjects_rect.right < sectionProjects_rect.right) {
+    wrpProjects.style.left = `-${wrpProjects_rect.width - sectionProjects_rect.width}px`;
   }
 }
